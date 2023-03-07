@@ -1,7 +1,7 @@
 {
-  "name": "bot_discord_toca_musica",
+  "name": "discord_bot_musica",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este é um bot do Discord que toca música, criado usando Node.js e a biblioteca discord.js. O bot pode tocar músicas do YouTube em um canal de voz do servidor do Discord usando os comandos .play, .skip, .stop e .queue. O bot usa ytdl-core para fazer o download de vídeos do YouTube e ffmpeg para reproduzir o áudio.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.3.4",
     "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.35.0",
     "ffmpeg-static": "^5.1.0",
     "ytdl-core": "^4.11.2"
   }
